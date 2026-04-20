@@ -1,0 +1,542 @@
+<!--
+  This landing page is designed for a fictional adult-oriented simulated slot entertainment platform.
+  It does not offer real-money gambling, cash rewards, or items of real-world value.
+  Copy and structure are intentionally written in a transparency-first, policy-sensitive style.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lumenreel is a simulated slot-style entertainment platform for adult audiences. Virtual coin play only. No real-money gambling. No prizes of real-world value." />
+  <meta name="theme-color" content="#0b0e1a" />
+  <title>Lumenreel — Simulated Reel Entertainment for Adults</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Compliance notice bar -->
+  <div class="notice-bar" role="note" aria-label="Compliance notice">
+    <p>
+      <span aria-hidden="true" class="notice-dot"></span>
+      Adults 18+ only. Simulated entertainment. No real-money gambling. No prizes of real-world value.
+    </p>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Lumenreel home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="brand-dot"></span>
+          <span class="brand-dot"></span>
+          <span class="brand-dot"></span>
+        </span>
+        <span class="brand-name">Lumenreel</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        aria-expanded="false"
+        aria-controls="primaryNav"
+        aria-label="Toggle navigation menu"
+      >
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#games">Games</a></li>
+          <li><a href="#how">How It Works</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#responsible">Responsible Play</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#games" class="btn btn-primary nav-cta">Explore Games</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Simulated reel entertainment</p>
+          <h1 id="hero-title">
+            Premium simulated reel games for adult entertainment.
+          </h1>
+          <p class="hero-sub">
+            Enjoy polished slot-style experiences with virtual coins only — no
+            real-money play and no real-world prizes. Lumenreel is a calm,
+            transparent entertainment space for adults who appreciate
+            reel-based game mechanics.
+          </p>
+          <div class="hero-ctas">
+            <a href="#games" class="btn btn-primary">Explore Games</a>
+            <a href="#how" class="btn btn-ghost">Learn How It Works</a>
+          </div>
+          <ul class="hero-badges" aria-label="Key facts">
+            <li><span class="check" aria-hidden="true"></span> Adults only</li>
+            <li><span class="check" aria-hidden="true"></span> Virtual coins only</li>
+            <li><span class="check" aria-hidden="true"></span> Entertainment focused</li>
+          </ul>
+        </div>
+
+        <!-- Animated reel visual -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="reel-frame">
+            <div class="reel" data-reel="1">
+              <div class="reel-track">
+                <span>◆</span><span>✦</span><span>◇</span><span>✶</span>
+                <span>◆</span><span>✦</span><span>◇</span><span>✶</span>
+              </div>
+            </div>
+            <div class="reel" data-reel="2">
+              <div class="reel-track">
+                <span>✦</span><span>◇</span><span>✶</span><span>◆</span>
+                <span>✦</span><span>◇</span><span>✶</span><span>◆</span>
+              </div>
+            </div>
+            <div class="reel" data-reel="3">
+              <div class="reel-track">
+                <span>◇</span><span>✶</span><span>◆</span><span>✦</span>
+                <span>◇</span><span>✶</span><span>◆</span><span>✦</span>
+              </div>
+            </div>
+            <div class="reel-glow"></div>
+          </div>
+          <p class="visual-caption">Simulated reel preview · Virtual play only</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust strip -->
+    <section class="trust-strip" aria-label="Platform principles">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">18+</div>
+          <h3>Adults only</h3>
+          <p>Access is intended strictly for audiences aged 18 and above.</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">◎</div>
+          <h3>Virtual coins only</h3>
+          <p>Gameplay uses in-platform virtual coins with no real-world value.</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">✕$</div>
+          <h3>No cash prizes</h3>
+          <p>No cash rewards. No withdrawals. No items of real-world value.</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">✦</div>
+          <h3>Entertainment first</h3>
+          <p>A calm, transparent experience designed for relaxed play.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured games -->
+    <section class="section" id="games" aria-labelledby="games-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Featured experiences</p>
+          <h2 id="games-title">A curated library of simulated reel games</h2>
+          <p class="section-sub">
+            Every title on Lumenreel is a simulated slot-style game played with
+            virtual coins. Nothing here offers real-money gambling or items of
+            real-world value.
+          </p>
+        </header>
+
+        <div class="games-grid">
+          <article class="game-card" aria-labelledby="g1">
+            <div class="game-art art-neon" aria-hidden="true">
+              <span>◆</span><span>✦</span><span>◇</span>
+            </div>
+            <div class="game-body">
+              <div class="game-meta">
+                <span class="tag tag-theme">Neon</span>
+                <span class="tag tag-virtual">Virtual play</span>
+              </div>
+              <h3 id="g1">Neon Reels</h3>
+              <p>A clean, modern reel experience styled with cool neon accents and smooth, restrained animations.</p>
+              <a href="#contact" class="btn btn-ghost btn-small">View Demo</a>
+            </div>
+          </article>
+
+          <article class="game-card" aria-labelledby="g2">
+            <div class="game-art art-midnight" aria-hidden="true">
+              <span>✶</span><span>◇</span><span>✦</span>
+            </div>
+            <div class="game-body">
+              <div class="game-meta">
+                <span class="tag tag-theme">Night sky</span>
+                <span class="tag tag-virtual">Virtual play</span>
+              </div>
+              <h3 id="g2">Midnight Spin</h3>
+              <p>A quiet, atmospheric reel game inspired by late-night skylines and soft constellation motifs.</p>
+              <a href="#contact" class="btn btn-ghost btn-small">View Demo</a>
+            </div>
+          </article>
+
+          <article class="game-card" aria-labelledby="g3">
+            <div class="game-art art-desert" aria-hidden="true">
+              <span>◇</span><span>◆</span><span>✶</span>
+            </div>
+            <div class="game-body">
+              <div class="game-meta">
+                <span class="tag tag-theme">Minimalist</span>
+                <span class="tag tag-virtual">Virtual play</span>
+              </div>
+              <h3 id="g3">Desert Symbols</h3>
+              <p>Warm tones, soft gradients, and a minimalist symbol set for a calm, unhurried reel session.</p>
+              <a href="#contact" class="btn btn-ghost btn-small">View Demo</a>
+            </div>
+          </article>
+
+          <article class="game-card" aria-labelledby="g4">
+            <div class="game-art art-orbit" aria-hidden="true">
+              <span>◎</span><span>✦</span><span>◇</span>
+            </div>
+            <div class="game-body">
+              <div class="game-meta">
+                <span class="tag tag-theme">Space</span>
+                <span class="tag tag-virtual">Virtual play</span>
+              </div>
+              <h3 id="g4">Orbit Reels</h3>
+              <p>A measured, low-key space theme featuring orbital patterns and softly rotating reel visuals.</p>
+              <a href="#contact" class="btn btn-ghost btn-small">View Demo</a>
+            </div>
+          </article>
+
+          <article class="game-card" aria-labelledby="g5">
+            <div class="game-art art-velvet" aria-hidden="true">
+              <span>✦</span><span>◆</span><span>◇</span>
+            </div>
+            <div class="game-body">
+              <div class="game-meta">
+                <span class="tag tag-theme">Elegant</span>
+                <span class="tag tag-virtual">Virtual play</span>
+              </div>
+              <h3 id="g5">Velvet Lights</h3>
+              <p>Subtle gradients and gentle motion create a refined, slow-paced reel experience.</p>
+              <a href="#contact" class="btn btn-ghost btn-small">View Demo</a>
+            </div>
+          </article>
+
+          <article class="game-card" aria-labelledby="g6">
+            <div class="game-art art-sapphire" aria-hidden="true">
+              <span>◆</span><span>◇</span><span>✶</span>
+            </div>
+            <div class="game-body">
+              <div class="game-meta">
+                <span class="tag tag-theme">Cool tones</span>
+                <span class="tag tag-virtual">Virtual play</span>
+              </div>
+              <h3 id="g6">Sapphire Spins</h3>
+              <p>A cool, blue-tinted reel presentation with crisp typography and balanced visual rhythm.</p>
+              <a href="#contact" class="btn btn-ghost btn-small">View Demo</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="section-note">
+          All games shown are fictional titles created for this simulated
+          entertainment platform. Gameplay uses virtual coins only.
+        </p>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section section-alt" id="how" aria-labelledby="how-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">How it works</p>
+          <h2 id="how-title">A transparent, straightforward experience</h2>
+          <p class="section-sub">
+            Lumenreel is designed to be simple to understand. There is no
+            real-money gameplay at any step of the journey.
+          </p>
+        </header>
+
+        <ol class="steps">
+          <li class="step">
+            <div class="step-number" aria-hidden="true">01</div>
+            <h3>Choose a game</h3>
+            <p>Browse the library and pick a simulated reel experience that matches your mood.</p>
+          </li>
+          <li class="step">
+            <div class="step-number" aria-hidden="true">02</div>
+            <h3>Play with virtual coins</h3>
+            <p>Spin using in-platform virtual coins. These coins have no cash value and cannot be redeemed or withdrawn.</p>
+          </li>
+          <li class="step">
+            <div class="step-number" aria-hidden="true">03</div>
+            <h3>Enjoy animated reel gameplay</h3>
+            <p>Relax with smooth animations, neutral sound design, and a calm interface built for entertainment.</p>
+          </li>
+          <li class="step">
+            <div class="step-number" aria-hidden="true">04</div>
+            <h3>Track progress and cosmetic unlocks</h3>
+            <p>Follow your in-platform progress and collect cosmetic unlocks that exist only inside Lumenreel.</p>
+          </li>
+        </ol>
+
+        <div class="inline-note" role="note">
+          <strong>Important:</strong> This platform does not offer real-money
+          gambling, cash rewards, or items of real-world value.
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">About the platform</p>
+          <h2 id="about-title">A simulated entertainment environment for adults</h2>
+          <p>
+            Lumenreel is a fictional brand that presents a simulated,
+            entertainment-only environment for adults who enjoy reel-based game
+            mechanics and polished visual design. Our focus is on a restrained,
+            transparent experience — not on the aesthetics of a gambling
+            operator.
+          </p>
+          <p>
+            The platform is built around virtual coins and cosmetic progression
+            only. Optional virtual item purchases may be available, but
+            participation is never required and no item carries real-world
+            value. You can enjoy the full experience without making any
+            purchases.
+          </p>
+          <p>
+            Our goal is to provide a calm, well-crafted digital entertainment
+            product that adults can enjoy in moderation.
+          </p>
+        </div>
+        <aside class="about-card" aria-label="Platform facts">
+          <h3>At a glance</h3>
+          <ul>
+            <li><strong>Audience:</strong> Adult audience only (18+)</li>
+            <li><strong>Currency:</strong> Virtual coins, no real-world value</li>
+            <li><strong>Purpose:</strong> Entertainment, not gambling</li>
+            <li><strong>Purchases:</strong> Optional cosmetic items</li>
+            <li><strong>Rewards:</strong> In-platform progress only</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Responsible Play -->
+    <section class="section section-responsible" id="responsible" aria-labelledby="rp-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Responsible play</p>
+          <h2 id="rp-title">Enjoy Lumenreel calmly and in moderation</h2>
+          <p class="section-sub">
+            We believe entertainment works best when it feels relaxed. These
+            guidelines help keep the experience positive.
+          </p>
+        </header>
+
+        <div class="responsible-grid">
+          <div class="responsible-item">
+            <h3>Adults only</h3>
+            <p>Lumenreel is intended strictly for audiences aged 18 and above. The platform is not designed for minors and is not marketed to them.</p>
+          </div>
+          <div class="responsible-item">
+            <h3>Entertainment only</h3>
+            <p>This is a simulated experience. It is not a gambling service and does not offer a path to money, prizes, or items of real-world value.</p>
+          </div>
+          <div class="responsible-item">
+            <h3>Take regular breaks</h3>
+            <p>Step away from the screen regularly. A short pause helps keep play comfortable and enjoyable.</p>
+          </div>
+          <div class="responsible-item">
+            <h3>Play in moderation</h3>
+            <p>Set your own time limits and avoid long uninterrupted sessions. Lumenreel is best enjoyed in small, relaxed doses.</p>
+          </div>
+          <div class="responsible-item">
+            <h3>Know when to step away</h3>
+            <p>If simulated reel-style mechanics feel personally uncomfortable, please do not use the platform. Your well-being comes first.</p>
+          </div>
+          <div class="responsible-item">
+            <h3>No real-world value</h3>
+            <p>Lumenreel does not provide real-money gameplay, cash rewards, withdrawals, or any items of real-world value.</p>
+          </div>
+        </div>
+
+        <div class="disclaimer-box" role="note" aria-label="Platform disclaimer">
+          <h3>Disclaimer</h3>
+          <p>
+            This website provides simulated slot-style entertainment for adult
+            audiences only. No real-money gambling is offered. No prizes or
+            items of real-world value are available. All gameplay uses
+            in-platform virtual coins with no cash value.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Frequently asked questions</p>
+          <h2 id="faq-title">Clear answers about Lumenreel</h2>
+        </header>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>
+              <span>Is this a real-money gambling website?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>No. Lumenreel is not a gambling website. It is a simulated entertainment platform. No real-money gameplay is offered at any point, and no feature of the platform involves real currency.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Can I win or withdraw cash?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>No. There are no cash rewards, no withdrawals, and no items of real-world value. Virtual coins exist only inside Lumenreel and cannot be redeemed for anything outside the platform.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Are the games intended for minors?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>No. Lumenreel is intended strictly for audiences aged 18 and above. The platform is not designed for minors and is not marketed to younger audiences in any way.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>What are virtual coins used for?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Virtual coins are used to play simulated reel-style games inside Lumenreel. They are not currency, they have no real-world value, and they cannot be exchanged, transferred, or withdrawn.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Are purchases required to participate?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>No. Participation does not require any purchase. Optional virtual item purchases may be available for cosmetic content, but they are never required and do not grant anything of real-world value.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Is this platform intended only for entertainment?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes. Lumenreel is an entertainment-only experience. It is designed for adults who enjoy simulated reel mechanics and polished visual design, and it is not intended as a gambling or money-earning service.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">We're here to help</h2>
+          <p>
+            Our support team can answer questions about responsible play,
+            account settings, and general platform information. We aim to
+            respond in a clear, respectful, and unhurried way.
+          </p>
+          <ul class="contact-points">
+            <li><strong>Email:</strong> <a href="mailto:support@example.com">support@example.com</a></li>
+            <li><strong>Topics:</strong> Responsible play, account settings, general questions</li>
+            <li><strong>Hours:</strong> Monday to Friday, business hours</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" aria-label="Contact form" onsubmit="return false;">
+          <div class="form-row">
+            <label for="cName">Name</label>
+            <input id="cName" name="name" type="text" autocomplete="name" required />
+          </div>
+          <div class="form-row">
+            <label for="cEmail">Email</label>
+            <input id="cEmail" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="form-row">
+            <label for="cTopic">Topic</label>
+            <select id="cTopic" name="topic">
+              <option>General question</option>
+              <option>Responsible play</option>
+              <option>Account settings</option>
+              <option>Feedback</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="cMessage">Message</label>
+            <textarea id="cMessage" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="contactSubmit">Send message</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite">
+            This is a static demonstration form. No data is transmitted.
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-name">Lumenreel</span>
+        <p>A fictional, simulated reel-style entertainment platform for adult audiences.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="#terms">Terms</a></li>
+          <li><a href="#privacy">Privacy</a></li>
+          <li><a href="#responsible">Responsible Play</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <p class="footer-disclaimer">
+        Simulated slot-style games for entertainment purposes only. Adults only.
+        No real-money gambling. No cash prizes. No items of real-world value.
+      </p>
+      <p class="footer-copy">&copy; <span id="year"></span> Lumenreel. Fictional brand for illustrative purposes.</p>
+    </div>
+  </footer>
+
+  <!-- Inline anchors for footer links to avoid broken references -->
+  <section id="terms" hidden aria-hidden="true"></section>
+  <section id="privacy" hidden aria-hidden="true"></section>
+
+  <script src="script.js"></script>
+</body>
+</html>
